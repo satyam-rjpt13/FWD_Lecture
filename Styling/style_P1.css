@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(108, 106, 106);
+}
+table{
+    border: 2px solid green;
+}
+.border{
+    border-collapse: collapse;
+    border: 2px solid rgb(25, 117, 0);
+}
+td{
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.dark{
+    background-color: rgb(25, 117, 0);
+}
+.light{
+    background-color: rgb(200, 232, 192);
+}
