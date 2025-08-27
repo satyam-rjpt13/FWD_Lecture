@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.navbar{
+    background-color: aliceblue;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.navlogo{
+    font-size: 40px;
+    font-weight: 600;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    font-weight: 500;
+}
+.navlist a{
+    transition: ease-in 0.2s;
+}
+
+.navlist a:hover{
+    font-weight: 550;
+    color:  rgb(34, 10, 57);
+
+}
+.navlist button{
+    background-color: rgb(90, 48, 152);
+    height: 25px;
+    width: 50px;
+    border-radius: 8px;
+    color: aliceblue;
+    transition: ease-in-out 0.2s;
+}
+.navlist button:hover{
+    height: 28px;
+    width: 56px;
+    color: blueviolet;
+
+}
+
+
+footer{
+    justify-content: center;
+    background-color: aliceblue;
+
+}
