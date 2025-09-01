@@ -1,0 +1,20 @@
+.box{
+    border: 3px solid black;
+    height: 400px;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(246, 99, 99);
+}
+.circle{
+    height: 80px;
+    width: 80px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 40px;
+    object-fit: cover;
+}
+.circle img{
+    border-radius: 50%;
+}
