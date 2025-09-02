@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    /* padding-left: 30px ; */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    display: inline-block;
+}
+#static{
+    position: static;
+    background-color: red;
+}
+#relative{
+    background-color: rgb(244, 200, 0);
+    position: relative;
+}
+#absolute{
+    background-color: rgb(19, 59, 255);
+    position:absolute;
+}
+#fixed{
+    background-color: #38f903;
+    position:fixed;
+}

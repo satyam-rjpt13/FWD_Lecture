@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+}
+.navbar{
+    /* box-shadow: ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    box-shadow: 0 2px 2px #efefef;
+}
+.navlogo{
+    display: flex;
+    padding: 15px 0 15px 0;
+    font-size: 15px;
+    transition: color 1s ease-in, transform 0.7s ease;
+}
+.navlogo li:hover{
+    font-weight: 550;
+    /* transform: scale(1.12); */
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+}
+.login-button button{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
