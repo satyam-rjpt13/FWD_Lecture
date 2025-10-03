@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+td{
+    height: 60px;
+    width: 60px;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
