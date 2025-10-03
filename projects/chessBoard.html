@@ -1,68 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chess Board</title>
-    <link rel="stylesheet" href="../Styling/chessBoard.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=chess_pawn"/>
+  <style>
+    table{
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    td{
+      width: 60px;
+      height: 60px;
+    }
+    .black {
+      background-color: black;
+    }
+    .white {
+      background-color: white;
+    }
+  </style>
 </head>
 <body>
-    <table class="board" >
+  <table border="1">
+    <!-- Generate 8 rows -->
+    <!-- Row 1 -->
     <tr>
-      <td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
     </tr>
+    <!-- Row 2 -->
     <tr>
-        <td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td>
-
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
     </tr>
+    <!-- Row 3 -->
     <tr>
-        <td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td>
-
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
     </tr>
+    <!-- Row 4 -->
     <tr>
-        <td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td>
-
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
     </tr>
+    <!-- Row 5 -->
     <tr>
-        <td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td>
-
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
     </tr>
+    <!-- Row 6 -->
     <tr>
-        <td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td>
-
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
     </tr>
+    <!-- Row 7 -->
     <tr>
-        <td class="dark">
-            <span class="material-symbols-outlined">chess_pawn</span>
-        </td>
-        <td class="light">
-            <span class="material-symbols-outlined">chess_pawn</span>
-        </td>
-        <td class="dark">
-            <span class="material-symbols-outlined">chess_pawn</span>
-        </td>
-        <td class="light">
-            <span class="material-symbols-outlined">chess_pawn</span>
-        </td>
-        <td class="dark">
-            <span class="material-symbols-outlined">chess_pawn</span>
-        </td>
-        <td class="light">
-            <span class="material-symbols-outlined">chess_pawn</span>
-        </td>
-        <td class="dark">
-            <span class="material-symbols-outlined">chess_pawn</span>
-        </td>
-        <td class="light">
-            <span class="material-symbols-outlined">chess_pawn</span>
-        </td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
     </tr>
+    <!-- Row 8 -->
     <tr>
-            <td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td>
-
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
+      <td class="black"></td>
+      <td class="white"></td>
     </tr>
   </table>
-    
 </body>
 </html>
